@@ -2,7 +2,7 @@ clear all;
 
 %rng(0);
 
-load("YaleA_0.2_Ubalaced_incomplete.mat");
+load("YaleA_0.2_unbalanced_incomplete.mat");
 
 lambda1 =0.01 ;
 lambda2 = 0.1;
