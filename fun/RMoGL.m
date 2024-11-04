@@ -62,6 +62,7 @@ while(Isconverg == 0)
         Z0(is,ind_c) = EProjSimplex_new(U_t(is,ind_c));
     end
     U = Z0;
+    U = U - diag(diag(U));
 
 
     % == update E{i} ==
